@@ -1,10 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Document</title>
-</head>
-<body>
+
+    <style>
+      * {
+        /* O asteristico aplica o csss em Tudo!!
+            Usamos ele para fazer o reset(Limpar)
+            o css padrão do navegador e aplicar um único.
+            */
+        margin-top: 0;
+        padding: 0;
+        box-sizing: border-box; /* Define o tamanho do elemento */
+        line-height: 1.5;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      p {
+        font-size: 14px;
+        color: rgb(223, 148, 50);
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-weight: bold;
+        color: black;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .container {
+        padding-left: 20%;
+        padding-right: 20%;
+      }
+      .card {
+        border: 1px #ebaeae solid;
+        padding: 15px;
+        border-radius: 10px;
+        margin: 10px auto;
+        box-shadow: 0 4px 8px rgba(209, 7, 7, 0.788);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 style="color: #ff0000">Fatec Jahu - CSS Inline</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut sunt illum
+        tempora amet vitae placeat alias quasi quae, aspernatur, consequatur
+        molestias eaque repellat necessitatibus expedita. Facilis, delectus!
+        Similique, autem facere?
+      </p>
+      <div class="card tamanho-50">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque culpa
+          exercitationem dignissimos accusamus. Nesciunt provident, non, dolores
+          alias illum doloribus optio modi eius enim quis, eos perspiciatis
+          laboriosam. Ratione, recusandae!
+        </p>
+    </div>
     
-</body>
+    <div class="card tamanho-50">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque culpa
+          exercitationem dignissimos accusamus. Nesciunt provident, non, dolores
+          alias illum doloribus optio modi eius enim quis, eos perspiciatis
+          laboriosam. Ratione, recusandae!
+        </p>
+    </div>
+  </body>
 </html>
