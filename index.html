@@ -4,60 +4,31 @@
     <meta charset="UTF-8" />
     <title>Document</title>
 
-    <style>
-      * {
-        /* O asteristico aplica o csss em Tudo!!
-            Usamos ele para fazer o reset(Limpar)
-            o css padrão do navegador e aplicar um único.
-            */
-        margin-top: 0;
-        padding: 0;
-        box-sizing: border-box; /* Define o tamanho do elemento */
-        line-height: 1.5;
-        font-family: Arial, Helvetica, sans-serif;
-      }
+    <link rel="stylesheet" href="css/style.css" class="css">
+    <link rel="stylesheet" href="css/text.css" class="css">
+    <link rel="stylesheet" href="css/color.css" class="css">
 
-      p {
-        font-size: 14px;
-        color: rgb(223, 148, 50);
-      }
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        font-weight: bold;
-        color: black;
-        margin-bottom: 20px;
-        text-align: center;
-      }
-      .container {
-        padding-left: 20%;
-        padding-right: 20%;
-      }
-      .card {
-        border: 1px #ebaeae solid;
-        padding: 15px;
-        border-radius: 10px;
-        margin: 10px auto;
-        box-shadow: 0 4px 8px rgba(209, 7, 7, 0.788);
-      }
+    <style>
     </style>
   </head>
 
   <body>
+    <header>
+      <!-- Podemos utilizar as variaveis no CSS inline-->
+      <h1 style="color:var(--secondary-color)">Bem vindo ao meu Site!</h1>
+    </header>
+
     <div class="container">
       <h1 style="color: #ff0000">Fatec Jahu - CSS Inline</h1>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut sunt illum
+        Lorem ipsum <spam class="text-bold text-blue" >dolor sit, amet consectetur adipisicing elit. </spam> Ut sunt illum
         tempora amet vitae placeat alias quasi quae, aspernatur, consequatur
         molestias eaque repellat necessitatibus expedita. Facilis, delectus!
         Similique, autem facere?
       </p>
       <div class="card tamanho-50">
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque culpa
+          <spam class="text-30">Lorem</spam> ipsum dolor sit, amet consectetur adipisicing elit. Cumque culpa
           exercitationem dignissimos accusamus. Nesciunt provident, non, dolores
           alias illum doloribus optio modi eius enim quis, eos perspiciatis
           laboriosam. Ratione, recusandae!
@@ -71,6 +42,13 @@
           alias illum doloribus optio modi eius enim quis, eos perspiciatis
           laboriosam. Ratione, recusandae!
         </p>
+        <button class="button" type="button"> PASSE O MOUSE</button>
     </div>
+
+    <footer>
+      <p>&copy; 2024 Fatec Jahu. Todos os direitos reservados</p>
+      <p>Desenvolvido por <b> Jurema da Silva</b></p>
+    </footer>
   </body>
+
 </html>

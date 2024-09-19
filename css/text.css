@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-red{
+    color: red;
+}
+
+.text-blue{
+    color: blue;
+}
+.text-green{
+    color: green;
+}
+
+.text-30{
+    font-size: 30px;
+}
